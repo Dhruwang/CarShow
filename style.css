@@ -1,0 +1,82 @@
+*{
+    overflow-y: hidden;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    width: 700vw;
+    background-color:black;
+}
+.carImg{
+    width: 400vw;
+    border: 2px solid red;
+    position: absolute;
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color:black;
+    align-items: center;
+    /* justify-content: center; */
+    
+}
+.carImgInner{
+    width: 100vw;
+    height: 100vh;
+    padding: 20rem;
+    border: 2px dashed blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.carName{
+    width: 400vw;
+    /* border: 2px solid green; */
+    position: absolute;
+    left: 300vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    /* z-index: -2; */
+    
+}
+.carNameInner{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+h1{
+    /* margin: auto; */
+    font-size: 10rem;
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+    z-index:2 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 12rem;
+    /* left: 10rem; */
+}
+.back{
+    height: 80vh;
+    width: 60vw;
+    /* border: 2px solid yellow; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 7rem;
+    background-position: center;
+    background-image: url(./car1.png);
+    z-index: 1;
+}
+.white{
+    color: white;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
